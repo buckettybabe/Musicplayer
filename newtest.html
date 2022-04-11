@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>Carrie's Music Player</title>
+        <link rel="stylesheet" href="./style2.css"></link>
+    </Head>
+    <h2> Carrie's Favourite Music Player</h2>
+    <h1> Choose Your Song</h1>
+
+<body>
+<main>
+    <!--create the player container-->
+    <div class="player">
+        <div class="background">
+            <div class="trackimgtext">
+                <img class="thumbnail" src="https://www.bensound.com/bensound-img/ukulele.jpg" alt="colourful hot air ballon in a book">
+            </div>
+            <div class="trackimgtext">
+                <h2 class="song-title">Ukulele</h2>
+                <p>Benjamin Tissot</p>
+            </div>
+            <div class="trk">
+                <audio class="song" id="myaudio1" preload="none" src="https://www.bensound.com/bensound-music/bensound-ukulele.mp3" type="audio/mp3" controls="controls"></audio>
+            </div>
+            
+
+        <script>
+            var x = document.getElementById("myAudio1"); 
+
+            function playAudio() { 
+            x.play(); 
+            } 
+
+            function pauseAudio() { 
+            x.pause(); 
+            } 
+        </script>
+        <div class="prevnext">
+            <div class="prev">
+                <button onclick="previousSong()" id="next-song">Previous Song
+            </div>
+            <div class="next">
+                <button onclick="nextSong()" id="next-song">Next Song
+            </div>
+        </div>
+    </div>
+
+   <!-- <div class ="days">
+        <div class="trackimgtext">
+                <img src="https://www.bensound.com/bensound-img/betterdays.jpg" alt="white clouds in blue sky">
+            </div>
+            <div class="trackimgtext">
+                <h2 class="song-title">Better Days</h2>
+                <p>Benjamin Tissot</p>
+            </div>
+        <div class="trk">
+            <audio class="song" id="myaudio2" preload="none" src="https://www.bensound.com/bensound-music/bensound-betterdays.mp3" type="audio/mp3" controls="controls"></audio>
+        </div>
+        
+        <script>
+            var y = document.getElementById("myAudio2"); 
+
+            function playAudio() { 
+            y.play(); 
+            } 
+
+            function pauseAudio() { 
+            y.pause(); 
+            } 
+        </script>
+        <div class="prevnext">
+            <div class="prev">
+                <button onclick="previousSong()" id="next-song">Previous Song
+            </div>
+            <div class="next">
+                <button onclick="nextSong()" id="next-song">Next Song
+            </div>
+        </div>
+    </div> -->
+
+   <!-- <div class ="sun">
+        <div class="trackimgtext">
+            <img src="https://www.bensound.com/bensound-img/sunny.jpg" alt="child wearing flying goggles">
+        </div>
+        <div class="trackimgtext">
+            <h2 class="song-title">Sunny</h2>
+            <p>Benjamin Tissot</p>
+        </div>
+        <div class="trk">
+            <audio class="song" id="myaudio3" preload="none" src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mp3" controls="controls"></audio>
+        </div>
+       
+        <script>
+            var z = document.getElementById("myAudio3"); 
+            
+            function playAudio() { 
+            z.play(); 
+            } 
+            
+            function pauseAudio() { 
+            z.pause(); 
+            } 
+        </script>
+        <div class="prevnext">
+            <div class="prev">
+                <button onclick="previousSong()" id="next-song">Previous Song
+            </div>
+            <div class="next">
+                <button onclick="nextSong()" id="next-song">Next Song
+            </div>
+        </div>
+    </div> -->
+    
+</div>
+
+    
+
+</main>
+    <footer>
+        <div class="footer">
+            <p><a href="https://www.bensound.com/">Royalty free music from Ben Sound<a/></p>
+        </div>
+    </footer>
+    
+    <script src="player.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,76 @@
+.player {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: minmax(200px, auto);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+    align-items: center;
+    justify-items: center;
+  }
+h1,h2 {
+    text-align: center;
+}
+.background {
+    grid-column: 2 /3;
+    grid-row: 1 / 6;
+    background-color: rgb(218, 160, 178);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.song-title {
+    grid-column: 2 /3;
+    grid-row: 1 / 6;
+    background-color: rgb(218, 160, 178);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+/*.days {
+    grid-column: 2 / 3;
+    grid-row: 1 / 6;
+    background-color: rgb(235, 94, 130);
+    align-items: center;
+    justify-items: center;
+}
+
+.sun {
+    grid-column: 3 / 4;
+    grid-row: 1 / 6;
+    background-color: rgb(114, 108, 251 );
+    align-items: center;
+    justify-items: center;
+}*/
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 30px;
+    
+  }
+
+  button {
+      font-size: 15px;
+  }
+.trackimgtext {
+    text-align: center;
+}
+
+.trk {
+        margin: 10px;
+  }
+
+.prevnext {
+    align-self: center;
+    margin: 20px;
+}
+.footer {
+    text-align: center;
+  
+}
+
